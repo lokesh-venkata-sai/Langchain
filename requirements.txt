@@ -5,3 +5,16 @@ langchain_community
 pypdf
 bs4
 arxiv
+pymupdf
+wikipedia
+pypdf
+langchain_text_splitters
+lxml
+langchain-openai
+chromadb
+langchain-ollama
+sentence_transformers
+langchain_huggingface
+faiss-cpu
+langchain_chroma #0.1.4
+streamlit
