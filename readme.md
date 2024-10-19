@@ -1,5 +1,5 @@
 ## Langchain ecosystem
-###  This is the repo that showcases the capabilities of Langchanin community. My main goal is to explore the capabilities of Langchain ecosystem and getting hands-on experience on various functionalities.
+This is the repo that showcases the capabilities of Langchanin community. My main goal is to explore the capabilities of Langchain ecosystem and getting hands-on experience on various functionalities.
 
 ## Tech Stack:
 - Python
