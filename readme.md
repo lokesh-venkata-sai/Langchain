@@ -4,7 +4,7 @@ This is the repo that showcases the capabilities of Langchanin community. My mai
 ## Tech Stack:
 - Python
 - LangChain
-- LangSMith - for LLM tracking purpose
+- LangSmith - for LLM tracking purpose
 - Streamlit
 
 
