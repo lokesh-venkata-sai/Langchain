@@ -6,9 +6,11 @@ This is the repo that showcases the capabilities of Langchanin community. My mai
 - LangChain
 - LangSmith - for LLM tracking purpose
 - Streamlit
+- Groq
+- LangServe --> To create Rest APIs (integrated with Fast API)
 
 
-## Concepts explored:
+## Concepts/Frameworks explored:
 - Open AI: 
     - How to invoke openAI API?
     - Simple application that reads a webpage and answers users query using OpenAI
@@ -17,6 +19,14 @@ This is the repo that showcases the capabilities of Langchanin community. My mai
 - Data Transformer: Different data splitting techniques
 - Embeddings: Different embedding techniques using OpenAI, Ollama, Huggingface
 - Vector Stores: Different types of vector stores like FAISS, ChromaDB
+- LCEL (Lang chain expression language): Developed a language translator using LLM
+    - Used groq API (A platform that provides fast AI inference of open source models)
+    - Used LangServe to create REST APIs --> check `serve.py` file for code
+    - `client.py` provides streamlit interface to take inputs from user and gives response by interacts with REST API we created using Langserve and Fast API
+
+
+## Language Translator sample
+![alt text](image.png)
 
 
 ## Prerequisites
@@ -24,11 +34,13 @@ This is the repo that showcases the capabilities of Langchanin community. My mai
 - Setup Langchain account and create API key from https://www.langchain.com/
 - Setup Hugginface account and create access key from https://huggingface.co/
 - Download and install Ollama from https://ollama.com/
+- Setup groq API keys from https://console.groq.com/playground
+
 
 ### Some Commands used
 - Create Python Virtual Environment
     ```sh
-    python3 -m venv venv
+    python -m venv venv
     ```
 - To activate Virtual Environment
     ```sh
