@@ -24,6 +24,13 @@ This is the repo that showcases the capabilities of Langchanin community. My mai
     - Used LangServe to create REST APIs --> check `serve.py` file for code
     - `client.py` provides streamlit interface to take inputs from user and gives response by interacts with REST API we created using Langserve and Fast API
 
+## Applications developed:
+- Chatbots
+    - 1-Chatbots.ipynb: Basic chatbot with message history, trimming concepts
+    - vectorretriever.ipynb: Vector Retriver concepts
+    - conversationqa.ipynb: Used technique to rephrase the user query based on chat history and retrives information from document store.
+- 
+
 
 ## Language Translator sample
 ![alt text](image.png)
